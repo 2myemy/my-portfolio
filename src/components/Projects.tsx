@@ -4,7 +4,7 @@ const projects = [
     description:
       "A full-stack book marketplace where users can buy and sell books.",
     image: "/booksy.png",
-    link: "https://booksy.netlify.app",
+    link: "https://booksy-client.netlify.app",
   },
   {
     title: "Portfolio Site",
