@@ -22,7 +22,7 @@ const About = () => {
             empathy, and meaningful design.
           </p>
           <p className="mb-5 text-[18px] leading-relaxed">
-            Since early 2025, I’ve been building with React, TypeScript,
+            I’ve been building with React, TypeScript,
             Node.js, and PostgreSQL. My favorite part of development is solving
             real-world problems through intuitive user experiences.
           </p>
