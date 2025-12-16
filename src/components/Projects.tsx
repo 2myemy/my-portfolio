@@ -9,8 +9,8 @@ const projects = [
   {
     title: "Portfolio Site",
     description:
-      "This very site — built with React, Tailwind, and love.",
-    image: "/portfolio-thumb.png",
+      "TBD",
+    image: "/coming-soon.jpg",
     link: "#",
   },
 ];
