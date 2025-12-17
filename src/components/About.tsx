@@ -28,11 +28,6 @@ const About = () => {
             My favorite part of development is solving real-world problems
             through intuitive user experiences.
           </p>
-
-          <p className="text-[18px] leading-relaxed">
-            I believe thoughtful technology can support real people. That’s what
-            I hope to create — one line of code at a time.
-          </p>
         </div>
       </div>
     </section>
