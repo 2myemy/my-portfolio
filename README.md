@@ -26,7 +26,7 @@ npm run dev
 ```
 
 ### Contact
-** Chloe Lee **
+**Chloe Lee**
 - 📧 chloe.artache@gmail.com
 - 🔗 https://linkedin.com/in/the-chloest
 - 🌐 https://chloe-lee.netlify.app
