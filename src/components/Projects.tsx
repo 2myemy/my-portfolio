@@ -7,11 +7,11 @@ const projects = [
     link: "https://booksy-client.netlify.app",
   },
   {
-    title: "Portfolio Site",
+    title: "Onchain Analyzer",
     description:
-      "TBD",
-    image: "/coming-soon.jpg",
-    link: "#",
+      "A web app that analyzes Ethereum wallet transactions and visualizes on-chain behavior using Alchemy.",
+    image: "/onchain-analyzer.jpg",
+    link: "https://onchain-analyzer.netlify.app/",
   },
 ];
 const Projects = () => {
