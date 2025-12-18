@@ -1,15 +1,15 @@
 const projects = [
   {
-    title: "Booksy",
-    description:
-      "A full-stack book marketplace where users can buy and sell books.",
+    title: "Booksy — Full-Stack Book Marketplace",
+    description: "A full-stack marketplace that allows users to browse, list, and manage books through a clean, intuitive interface. I built the application end-to-end, focusing on user flows, reusable components, and scalable architecture. The project emphasizes usability, clear data modeling, and maintainable frontend and backend structure.",
+    techstack: "React, TypeScript, Node.js, Express, PostgreSQL",
     image: "/booksy.png",
     link: "https://booksy-client.netlify.app",
   },
   {
-    title: "Onchain Analyzer",
-    description:
-      "A web app that analyzes Ethereum wallet transactions and visualizes on-chain behavior using Alchemy.",
+    title: "Onchain Analyzer — Wallet Analysis Tool",
+    description: "A web application that analyzes Ethereum wallet transactions and visualizes on-chain activity in a clear, user-friendly way. I focused on transforming complex blockchain data into intuitive visual insights, emphasizing usability and clarity for users unfamiliar with raw on-chain data.",
+    techstack: "React, TypeScript, Web3 APIs, Alchemy",
     image: "/onchain-analyzer.png",
     link: "https://onchain-analyzer.netlify.app/",
   },
@@ -44,6 +44,10 @@ const Projects = () => {
 
                 <p className="text-[16px] text-[#6b5e54] leading-relaxed mb-6">
                   {project.description}
+                </p>
+
+                <p className="text-[14px] text-[#6b5e54] leading-relaxed mb-6">
+                  Tech Stack: {project.techstack}
                 </p>
 
                 <a
