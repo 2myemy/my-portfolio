@@ -10,7 +10,7 @@ const projects = [
     title: "Onchain Analyzer",
     description:
       "A web app that analyzes Ethereum wallet transactions and visualizes on-chain behavior using Alchemy.",
-    image: "/onchain-analyzer.jpg",
+    image: "/onchain-analyzer.png",
     link: "https://onchain-analyzer.netlify.app/",
   },
 ];
