@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="max-w-xl mx-auto">
         <h2 className="text-4xl font-serif mb-6">Contact</h2>
         <p className="text-[18px] leading-relaxed mb-8">
-          I’d love to hear from you — whether it’s about a project, an
+          I'd love to hear from you — whether it's about a project, an
           opportunity, or just to say hi.
         </p>
 
