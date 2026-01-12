@@ -1,17 +1,19 @@
 const projects = [
   {
+    title: "Sajumon — Real-Time Chat Application",
+    description:
+      "Sajumon is a real-time, chat-based fortune reading web application built with Server-Sent Events (SSE) and the OpenAI API. It delivers responses through a streaming conversation flow, creating a smooth and responsive chat experience.",
+    techstack: "React, TypeScript, TailwindCSS, Node.js, SSE, OpenAI API",
+    image: "/sajumon.png",
+    link: "https://sajumon.netlify.app",
+  },
+  {
     title: "Booksy — Full-Stack Book Marketplace",
-    description: "A full-stack marketplace that allows users to browse, list, and manage books through a clean, intuitive interface. I built the application end-to-end, focusing on user flows, reusable components, and scalable architecture. The project emphasizes usability, clear data modeling, and maintainable frontend and backend structure.",
+    description:
+      "Booksy is a full-stack marketplace for browsing and managing books, designed with a clean, user-focused interface. The project emphasizes clear application structure, reusable components, and maintainable frontend–backend separation.",
     techstack: "React, TypeScript, Node.js, Express, PostgreSQL",
     image: "/booksy.png",
     link: "https://booksy-client.netlify.app",
-  },
-  {
-    title: "Onchain Analyzer — Wallet Analysis Tool",
-    description: "A web application that analyzes Ethereum wallet transactions and visualizes on-chain activity in a clear, user-friendly way. I focused on transforming complex blockchain data into intuitive visual insights, emphasizing usability and clarity for users unfamiliar with raw on-chain data.",
-    techstack: "React, TypeScript, Web3 APIs, Alchemy",
-    image: "/onchain-analyzer.png",
-    link: "https://onchain-analyzer.netlify.app/",
   },
 ];
 const Projects = () => {
@@ -38,9 +40,7 @@ const Projects = () => {
               />
 
               <div className="p-6">
-                <h3 className="text-2xl font-serif mb-3">
-                  {project.title}
-                </h3>
+                <h3 className="text-2xl font-serif mb-3">{project.title}</h3>
 
                 <p className="text-[16px] text-[#6b5e54] leading-relaxed mb-6">
                   {project.description}
